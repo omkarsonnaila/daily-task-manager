@@ -1,0 +1,23 @@
+{
+  "buildCommand": "cd dev-server && npm install && npm run build",
+  "outputDirectory": "dev-server/dist",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "env": {
+    "VITE_SUPABASE_URL": {
+      "description": "Supabase project URL"
+    },
+    "VITE_SUPABASE_PUBLISHABLE_KEY": {
+      "description": "Supabase public/publishable key"
+    },
+    "SUPABASE_URL": {
+      "description": "Supabase project URL (server-side)"
+    },
+    "SUPABASE_PUBLISHABLE_KEY": {
+      "description": "Supabase public key (server-side)"
+    },
+    "SUPABASE_SERVICE_ROLE_KEY": {
+      "description": "Supabase service role key (server-side, keep private)"
+    }
+  }
+}

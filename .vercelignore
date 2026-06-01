@@ -1,0 +1,19 @@
+# Vercel Build Optimization
+.git
+.gitignore
+.env.local
+.env.*.local
+.vscode
+.idea
+.DS_Store
+*.log
+*.swp
+*.swo
+node_modules
+supabase/migrations
+.prettierignore
+.prettierrc
+eslint.config.js
+tsconfig.json
+.turbo
+dist
